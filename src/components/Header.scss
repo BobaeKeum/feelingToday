@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  height: 130px;
+  margin: 0 auto;
+
+  &_left {
+    width: 50%;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: none;
+    &_title {
+      margin-left: 10px;
+    }
+  }
+
+  &_right {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    height: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    &_button {
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+  }
+}
